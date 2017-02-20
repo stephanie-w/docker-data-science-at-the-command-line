@@ -5,9 +5,9 @@ This repository contains everything to build a doker container to use with the b
 
 To build the container :
 
-    cd docker--t data-science-toolbox .
-    docker build -t data-science-toolbox .
+    cd docker-data-science-at-the-command-line
+    docker build -t docker-data-science-at-the-command-line .
 
 To run the container :
 
-    docker run -v `pwd`:/data -it --rm data-science-toolbox /bin/bash
+    docker run -v `pwd`:/data -it docker-data-science-at-the-command-line /bin/bash
